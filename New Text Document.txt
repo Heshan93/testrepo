@@ -1,0 +1,67 @@
+https://www.youtube.com/watch?v=8XolBruOffM
+
+// javascript
+
+let count = 0
+let a = 0
+
+let b = document.getElementById("count-el")
+
+
+function increment(){
+
+    count = count + 1
+    
+    b.innerText = count
+    
+    console.log(count)
+     
+     
+     
+     }
+
+/*
+function decrease(){
+    
+        count = count - 1
+    
+        console.log(count)
+     
+        document.getElementById("count-el").innerText = count
+     
+     }
+
+*/
+
+
+
+
+
+
+
+===================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Pepole Count Appt</title>
+</head>
+<body>
+    <h1>People entered:</h1>
+    <h2 id="count-el">0</h2>
+
+        <button  id="increment-btn" onclick="increment()">Increment</button>
+        <button  id="increment-btn" onclick="decrease()">decrease</button>
+    
+        <script src="/index.js"> </script>
+        
+        
+
+</body>
+</html>
+
